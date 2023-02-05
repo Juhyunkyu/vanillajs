@@ -1,0 +1,88 @@
+@import "reset.css";
+
+/* 
+body {
+    background-color: beige;
+  } */
+
+.hidden {
+    display: none;
+  }
+
+.mainScreen {
+  position: relative;
+
+  background-size: cover;
+  height: 100vh;
+}
+
+.mainScreen img{
+    width:100%;
+    height: 100%;
+}
+
+.userToDoWeather {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  top : 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  position: absolute;
+}
+
+#clock {
+  color:aliceblue;
+  font-size: 115px;
+  text-shadow: 4px 2px 2px rgb(27, 27, 27);
+}
+
+#login-form input{
+  border-radius: 10px;
+  height: 24px;
+  width: 125px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#login-form button {
+  border-radius: 6px;
+  height: 30px;  
+}
+#greeting {
+  color:aliceblue;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 4px 2px 2px rgb(27, 27, 27);
+}
+
+#todo-form input {
+  border-radius: 10px;
+  height: 24px;
+  width: 125px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#todo-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  background-color: rgba(65, 32, 94, 0.3);
+  margin-top: 10px;
+  border-radius: 10px;
+}
+#todo-list li > span {
+  color: rgb(226, 232, 235);
+  margin-right: 10px;
+}
+
+#weather {
+  margin-top: 25px;
+  color:aliceblue;
+  font-size: 17px; 
+  font-weight: bold;
+  text-shadow: 4px 2px 2px rgb(27, 27, 27);
+}
